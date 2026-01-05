@@ -14,7 +14,7 @@ Unlike Variational Quantum Classifiers (VQC) that require costly training loops,
 
 ## 🚀 Key Features
 * **Reservoir Computing:** Implements a 5-qubit `EfficientSU2` reservoir to map temporal data into high-dimensional Hilbert space.
-* **Batch Execution Strategy:** Utilizes Qiskit Runtime primitives to submit **110+ circuits in a single batch job**, reducing total runtime from hours to <5 minutes.
+* **Batch Execution Strategy:** Utilizes Qiskit Runtime primitives to submit **110+ circuits in a single batch job**, reducing total runtime from hours to <5 minutes in this case it took 2m 10s.
 * **Chaos Prediction:** Forecasts the non-linear Mackey-Glass equation using a hybrid Quantum-Ridge Regression pipeline.
 * **Hardware Verification:** Validates the coherence of the reservoir on the utility-scale `ibm_fez` (156 qubits) backend.
 
